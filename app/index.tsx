@@ -5,12 +5,8 @@ import excuses from "@/constants/data/excuses.json";
 export default function HomeScreen() {
   const [excuse, setExcuse] = useState("");
 
-  const randomIndex = (min: number, max: number): number => {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  };
-
   const buttonPress = () => {
-    const excuseIndex = randomIndex(0, excuses.items.length);
+    const excuseIndex = Math.floor(Math.random() * excuses.items.length);
     setExcuse(excuses.items[excuseIndex]);
   };
 
