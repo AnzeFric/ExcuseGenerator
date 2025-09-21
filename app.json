@@ -19,7 +19,8 @@
         "monochromeImage": "./constants/assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anzefric.ExcuseGenerator"
     },
     "web": {
       "output": "static",

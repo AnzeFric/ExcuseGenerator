@@ -10,6 +10,7 @@ web-build/
 expo-env.d.ts
 
 # Native
+.kotlin/
 *.orig.*
 *.jks
 *.p8
@@ -28,6 +29,9 @@ yarn-error.*
 # macOS
 .DS_Store
 *.pem
+
+# Android
+android/
 
 # local env files
 .env*.local
