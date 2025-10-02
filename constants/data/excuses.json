@@ -1,46 +1,106 @@
 {
   "items": [
-    "My alarm clock and I are in a committed relationship, but it's complicated",
-    "I got stuck behind a family of ducks crossing the road and didn't want to be rude",
-    "My coffee maker held me hostage until I agreed to buy premium beans",
-    "I was abducted by aliens but they had terrible Wi-Fi so I couldn't call in",
-    "My GPS got existential and started questioning the meaning of 'destination'",
-    "A squirrel stole my car keys and demanded ransom in acorns",
-    "My dog ate my homework, then my printer, then somehow learned to delete files",
-    "I finished it but my homework achieved sentience and ran away to join the circus",
-    "Netflix held my homework for ransom and demanded I finish three more seasons",
-    "My homework was so good it got recruited by NASA",
-    "I wrote it in disappearing ink to make it more challenging",
-    "My homework is currently in witness protection",
-    "I'm conducting a scientific experiment on the effects of dust accumulation",
-    "The dishes are having a spa day in soapy water - I don't want to disturb them",
-    "I'm on strike until the vacuum cleaner learns to empty itself",
-    "The mess is actually a modern art installation called 'Entropy in Motion'",
-    "I'm waiting for cleaning technology to advance to the point where thoughts alone can tidy up",
-    "The dirt and I have reached a peaceful coexistence agreement",
-    "It was staring at me with sad, crumbly eyes - I had to put it out of its misery",
-    "The cookie jumped into my mouth - it was clearly suicidal",
-    "I was conducting a quality control test for everyone's safety",
-    "The cookie whispered secrets of the universe to me, I had no choice but to listen",
-    "I'm actually a cookie disposal unit in human form",
-    "The cookie was past its prime and I was preventing a potential uprising",
-    "I was planning a surprise for next year's anniversary instead",
-    "I was testing your memory too - congratulations, you passed!",
-    "Time is just a social construct anyway",
-    "I celebrate our anniversary every day in my heart, so I lost track of the official one",
-    "I was giving you the opportunity to feel superior",
-    "The calendar app on my phone became self-aware and started making its own decisions",
-    "I'm actually a phone charger in human form - this is just my natural state",
-    "My phone and I are in couple's therapy and this is bonding time",
-    "I'm conducting important research on the migration patterns of social media posts",
-    "My thumb muscles need constant exercise or they atrophy",
-    "I'm training to become a professional scroll-athlete",
-    "The phone has separation anxiety - I'm just being compassionate",
-    "I'm letting the task marinate in possibility before I ruin it with execution",
-    "I work better under pressure, and pressure works better under last-minute panic",
-    "I'm conducting a longitudinal study on the effects of delayed gratification",
-    "The task isn't ripe yet - I'm waiting for optimal completion conditions",
-    "I'm building suspense to make the eventual completion more dramatic",
-    "Procrastination is just productivity's way of playing hard to get"
+    {
+      "title": "Work",
+      "icon": "briefcase",
+      "isFree": true,
+      "excuses": [
+        "My WiFi saw the meeting invite and quit out of protest.",
+        "My cat scheduled a Zoom call of its own and hijacked my laptop.",
+        "The printer demanded a blood sacrifice before it would work.",
+        "I was locked in an epic battle with a spreadsheet formula.",
+        "My keyboard went on strike and only typed emojis.",
+        "I thought today was Saturday until my boss called.",
+        "My calendar double-booked me with a nap.",
+        "I spilled coffee on my work badge and it stopped scanning.",
+        "My headset tangled itself into a Gordian knot.",
+        "The office plants staged a revolt and I had to negotiate peace."
+      ]
+    },
+    {
+      "title": "Social",
+      "icon": "people",
+      "isFree": true,
+      "excuses": [
+        "I was abducted by a particularly clingy couch.",
+        "I fell asleep trying to pick an outfit.",
+        "My fridge begged me to keep it company.",
+        "I got lost scrolling memes and never found my way back.",
+        "My dog threw a party and I had to supervise.",
+        "I was cursed by Netflix’s ‘Next Episode’ button.",
+        "I accidentally RSVP’d yes to my own imaginary event.",
+        "I was too busy pretending to be busy.",
+        "My horoscope said ‘stay home or else’.",
+        "I got stuck in traffic… in my kitchen."
+      ]
+    },
+    {
+      "title": "Family",
+      "icon": "home",
+      "isFree": true,
+      "excuses": [
+        "My toddler changed the WiFi password and forgot it.",
+        "We were reenacting a soap opera at dinner.",
+        "Grandma challenged me to Mario Kart and refused to lose.",
+        "Our dog ate the car keys, again.",
+        "I had to mediate a debate about pineapple on pizza.",
+        "Family karaoke night turned into a hostage situation.",
+        "We lost the TV remote and it became a family emergency.",
+        "Someone hid the snacks and we launched a full investigation.",
+        "Uncle Bob started telling a story that lasted three hours.",
+        "Our board game turned into a war crime tribunal."
+      ]
+    },
+    {
+      "title": "School",
+      "icon": "school",
+      "isFree": true,
+      "excuses": [
+        "My homework was eaten by AI instead of the dog.",
+        "I accidentally submitted my grocery list instead of my essay.",
+        "The WiFi only worked for TikTok, not assignments.",
+        "I had to finish a side quest before doing homework.",
+        "My alarm clock hit snooze on me.",
+        "I couldn’t attend class, I was binge-studying memes.",
+        "The teacher’s email went to my spam folder labeled ‘bad vibes’.",
+        "I mistook my math homework for abstract art.",
+        "My pencil unionized and refused to write.",
+        "I was late because my backpack staged a sit-in."
+      ]
+    },
+    {
+      "title": "Creative",
+      "icon": "create",
+      "isFree": false,
+      "excuses": [
+        "I was trapped brainstorming the perfect excuse.",
+        "Aliens gave me homework of their own.",
+        "My muse ghosted me at the last second.",
+        "The canvas rejected my artistic vision.",
+        "I was too busy drawing a self-portrait as a potato.",
+        "My creative energy was stolen by a raccoon.",
+        "I had to duel with Photoshop until dawn.",
+        "My pen ink ran away with the highlighter.",
+        "I wrote my idea on a napkin and then ate it accidentally.",
+        "The voices in my head couldn’t agree on a concept."
+      ]
+    },
+    {
+      "title": "Funny",
+      "icon": "happy",
+      "isFree": false,
+      "excuses": [
+        "I was kidnapped by my blanket and Stockholm syndrome set in.",
+        "My goldfish needed relationship advice.",
+        "I joined a staring contest with my ceiling fan and lost.",
+        "My imaginary friend locked me out of the house.",
+        "I was too busy practicing my Oscar speech in the shower.",
+        "I fell into a Wikipedia rabbit hole about penguins.",
+        "I was rehearsing my stand-up set for the toaster.",
+        "I had to rescue my phone from falling into the couch abyss.",
+        "I joined a cult of squirrels but they let me go at sundown.",
+        "I spent three hours arguing with autocorrect."
+      ]
+    }
   ]
 }

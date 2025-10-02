@@ -1,16 +1,20 @@
 export const Colors = {
   light: {},
   dark: {
-    backgroud: "#0B0B0B",
+    /* Backgrounds */
+    backgroud: "#F8F8F5",
+    secondaryBackground: "#FFFFFF",
+    itemBackground: "#FFFFFF",
 
-    titleText: "#39FF14",
+    /* Buttons */
+    primaryButton: "#17171D",
 
-    primaryButton: "#39FF14",
+    /* Borders */
+    secondaryBorder: "#E6E6E9",
+    primaryButtonBorder: "#E6E6E9",
+    itemBorder: "#E6E6E9",
 
-    primaryButtonText: "#0B0B0B",
-
-    shadowGreen: "#39FF14",
-
-    borderGreen: "#39FF14",
+    /* Icons */
+    itemIcon: "#000000",
   },
 };
