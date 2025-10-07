@@ -71,7 +71,7 @@
     {
       "title": "Creative",
       "icon": "create",
-      "isFree": false,
+      "isFree": true,
       "excuses": [
         "I was trapped brainstorming the perfect excuse.",
         "Aliens gave me homework of their own.",
@@ -88,7 +88,7 @@
     {
       "title": "Funny",
       "icon": "happy",
-      "isFree": false,
+      "isFree": true,
       "excuses": [
         "I was kidnapped by my blanket and Stockholm syndrome set in.",
         "My goldfish needed relationship advice.",
