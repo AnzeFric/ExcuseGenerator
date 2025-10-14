@@ -4,11 +4,11 @@
     "appVersionSource": "remote"
   },
   "build": {
-    "standalone": {
+    "production": {
       "developmentClient": false,
-      "distribution": "internal",
+      "distribution": "store",
       "android": {
-        "buildType": "apk",
+        "buildType": "aab",
         "image": "latest"
       },
       "ios": {
