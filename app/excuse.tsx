@@ -11,6 +11,7 @@ import { useLocalSearchParams } from "expo-router";
 import { AppStyles } from "@/constants/Styles";
 import { Colors } from "@/constants/Colors";
 import { Ionicons } from "@expo/vector-icons";
+import { router } from "expo-router";
 
 export default function ExcuseScreen() {
   const { excuses } = useLocalSearchParams();
@@ -34,13 +35,20 @@ export default function ExcuseScreen() {
     setCopiedSuccess(true);
   };
 
+  const returnToHome = () => {
+    router.back();
+  };
+
   return (
     <ScrollView
       style={{ marginBottom: 30 }}
       contentContainerStyle={styles.container}
     >
       <View style={styles.header}>
-        <Text style={[AppStyles.title, styles.text]}>Excuse Generator</Text>
+        <View style={styles.headerTitle}>
+          <Ionicons name={"arrow-back"} size={30} onPress={returnToHome} />
+          <Text style={[AppStyles.title, styles.text]}>Excuse Generator</Text>
+        </View>
         <Text style={[AppStyles.subTitle, styles.text]}>
           Need a quick excuse?
         </Text>
@@ -87,6 +95,12 @@ const styles = StyleSheet.create({
   header: {
     gap: 18,
     marginBottom: 45,
+  },
+  headerTitle: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 15,
   },
   text: {
     textAlign: "center",
